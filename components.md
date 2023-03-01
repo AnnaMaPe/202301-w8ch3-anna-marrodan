@@ -3,7 +3,7 @@
 ## Product
 
 - id
-- name
+- product name
 - price
 - image
 - isAvailable
