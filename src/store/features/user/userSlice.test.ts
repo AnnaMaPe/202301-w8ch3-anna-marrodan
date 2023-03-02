@@ -4,7 +4,7 @@ import {
   userReducer,
 } from "./userSlice";
 
-describe("Given a userSlice", () => {
+describe("Given an userSlice", () => {
   const macAir = {
     id: "12",
     productName: "Mac air Expensive",

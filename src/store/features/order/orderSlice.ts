@@ -3,7 +3,14 @@ import { Order, OrderedMac } from "../../../data/types";
 
 const initialOrder: Order = {
   id: "14",
-  listOfProducts: [],
+  listOfProducts: [
+    {
+      id: "122",
+      productName: "Mac Saurus",
+      price: 1278,
+      image: "toGuapo.jpg",
+    },
+  ],
   customer: "Rouman",
   state: true,
 };
@@ -18,5 +25,5 @@ const orderSlice = createSlice({
   },
 });
 
-export const orderReduce = orderSlice.reducer;
+export const orderReducer = orderSlice.reducer;
 export const { addToOrder: addToOrderActionCreator } = orderSlice.actions;
