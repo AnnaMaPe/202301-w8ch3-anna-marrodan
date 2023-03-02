@@ -35,13 +35,14 @@
 
 ## Order
 
-- add selected product
-- delete selected product
+- create an order by adding the selected products
 - set order state to ready
 - set order state to dispatched
 
 ## Customer
 
+- select a product
+- unselect a product
 - create new user
 - modify user
 - set isLogged

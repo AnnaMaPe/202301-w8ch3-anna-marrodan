@@ -2,7 +2,7 @@ import { MacsStructure } from "../../../data/types";
 import { loadMacsActionCreator, macsReducer } from "./macsSlice";
 
 describe("Given a macsReducer function", () => {
-  describe("When it received an initial empty list and it is called with a loadMacsActionCreator", () => {
+  describe("When it receives an initial empty list and it is called with a loadMacsActionCreator", () => {
     test("Then it should return a list with two macs", () => {
       const initialMacsList: MacsStructure = [];
 

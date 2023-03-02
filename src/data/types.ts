@@ -7,3 +7,12 @@ export interface MacStructure {
 }
 
 export type MacsStructure = MacStructure[];
+
+export interface Order {
+  id: string;
+  listOfProducts: string[];
+  customer: string;
+  state: boolean;
+}
+
+export type Orders = Order[];
